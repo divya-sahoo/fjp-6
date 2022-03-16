@@ -1,0 +1,70 @@
+*{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin: 0.5rem;
+}
+
+header{
+    display: flex; 
+    /* it will make the content to displayed in one line. */
+    justify-content:space-between;
+    /* it is used to move the content left/right and many other */
+    margin-left: 50px;
+}
+ul{
+    display:flex;
+    
+    /* we can also write it as 600vw where vw stands for viewport width. */
+    justify-content: space-evenly;
+    list-style-type: none;
+    font-size: x-large;
+   
+
+}
+.bigimage{
+    
+    width: 95vw;
+    margin:1rem;
+    margin-bottom:4rem;
+}
+nav{
+    margin-top: 10px;
+    width:60vw;
+
+}
+h1{
+    width:200px
+}
+li:hover{
+    color: red;
+    cursor: pointer;
+}
+
+.container{
+    justify-content: space-evenly;
+    display:flex;
+    
+}
+.container>div{
+   text-align: center;
+   margin:2rem;
+    }
+.container>div>p{
+    font-size:x-large;
+    line-height: 1.5rem;
+    }
+h1{
+    font-weight: normal;
+}
+footer{
+    text-align: center;
+    background-color: black;
+    color: whitesmoke;
+    height: 4rem;
+    font-size: x-large;
+    
+}
+footer>p{
+    padding:1rem;
+}
+
+    

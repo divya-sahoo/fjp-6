@@ -1,0 +1,5 @@
+let os=require('os')
+console.log(os)
+console.log("hostname",os.hostname())
+console.log("userinfo",os.userInfo()) 
+console.log(os.arch())
